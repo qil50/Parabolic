@@ -15,52 +15,52 @@
 </info>
 
 <title>محوّل الصيغة</title>
-<p>This page explains all options for configuring the Converter in Preferences in <app>Parabolic</app>.</p>
+<p>توضح هذه الصفحة جميع الخيارات لإعداد محوّل الصيغة في التفضيلات داخل تطبيق <app>بارابوليك</app>.</p>
 
 <terms>
 	<item>
 		<title>دمج بيانات الوصف</title>
-		<p>If enabled, Parabolic will tag a media with its relevant information (title, genre, etc...) and thumbnail if available.</p>
+		<p>إذا تم التمكين، سيقوم بارابوليك بوسم الوسائط بمعلوماتها ذات الصلة (العنوان، النوع، إلخ...) والصورة المصغرة إذا كانت متوفرة.</p>
 		<note style="advanced">
-			<p>Default: On</p>
+			<p>الإعداد الافتراضي: تشغيل</p>
 		</note>
     </item>
     <item>
 		<title>دمج الفصول</title>
-		<p>If enabled, Parabolic will tag a media with chapter information if available.</p>
+		<p>إذا تم التمكين، سيقوم بارابوليك بوسم الوسائط بمعلومات الفصول إذا كانت متوفرة.</p>
 		<note style="advanced">
-			<p>Default: Off</p>
+			<p>الإعداد الافتراضي: إيقاف</p>
 		</note>
 	</item>
     <item>
         <title>دمج الترجمة</title>
-        <p>If disabled or if embedding fails, downloaded subtitles will be saved to a separate file.</p>
+        <p>إذا تم التعطيل أو فشل الدمج، فسيتم حفظ الترجمات التي تم تحميلها في ملف منفصل.</p>
         <note style="advanced">
-            <p>Default: On</p>
+            <p>الإعداد الافتراضي: تشغيل</p>
         </note>
     </item>
     <item>
 		<title>قص صور الصوتيات المصغرة</title>
-		<p>If enabled, Parabolic will crop thumbnails for audio files to be a square resolution.</p>
-        <p>This option is only configurable if <code>Embed Metadata</code> is on.</p>
+		<p>إذا تم التمكين، سيقوم بارابوليك بقص الصور المصغرة لملفات الصوت لتكون بدقة مربعة.</p>
+        <p>هذا الخيار قابل للتكوين فقط إذا كان <code>دمج بيانات الوصف</code> قيد التشغيل.</p>
 		<note style="advanced">
-			<p>Default: Off</p>
+			<p>الإعداد الافتراضي: إيقاف</p>
 		</note>
     </item>
     <item>
 		<title>أزل بيانات المصدر</title>
-		<p>If enabled, Parabolic will clear metadata fields containing the URL and other identifying information of the media source.</p>
-        <p>Fields that are cleared: <code>comment</code>, <code>description</code>, <code>synopsis</code>, <code>purl</code> and <code>handler_name</code> in each stream.</p>
-        <p>This option is only configurable if <code>Embed Metadata</code> is on.</p>
+		<p>إذا تم التمكين، سيقوم بارابوليك بإزالة حقول البيانات الوصفية التي تحتوي على عنوان URL ومعلومات تعريف المصدر.</p>
+        <p>الحقول التي يتم مسحها: <code>comment</code>، <code>description</code>، <code>synopsis</code>، <code>purl</code> و<code>handler_name</code> في كل تدفق.</p>
+        <p>هذا الخيار قابل للتكوين فقط إذا كان <code>دمج بيانات الوصف</code> قيد التشغيل.</p>
 		<note style="advanced">
-			<p>Default: Off</p>
+			<p>الإعداد الافتراضي: إيقاف</p>
 		</note>
     </item>
     <item>
         <title>مسارات مابعد المعالجة</title>
-        <p>The number of threads to allow the postprocessor (<code>FFmpeg</code>) to use for each download.</p>
+        <p>عدد المسارات التي يُسمح للمعالج اللاحق (<code>FFmpeg</code>) باستخدامها لكل تحميل.</p>
         <note style="advanced">
-            <p>Default: The max number of threads available on the system</p>
+            <p>الإعداد الافتراضي: الحد الأقصى من المسارات المتاحة في النظام</p>
         </note>
     </item>
 </terms>
