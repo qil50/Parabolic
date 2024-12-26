@@ -15,61 +15,61 @@
 </info>
 
 <title>المحمّل</title>
-<p>This page explains all options for configuring the Downloader in Preferences in <app>Parabolic</app>.</p>
+<p>توضح هذه الصفحة جميع الخيارات لإعداد المُحمّل في التفضيلات داخل تطبيق <app>بارابوليك</app>.</p>
 
 <terms>
     <item>
-        <title>Verbose Logging</title>
-        <p>If enabled, more verbose logs will be provided by <code>yt-dlp</code> for each download.</p>
+        <title>السجلات التفصيلية</title>
+        <p>إذا تم التمكين، ستوفر <code>yt-dlp</code> سجلات تفصيلية لكل عملية تحميل.</p>
         <note style="advanced">
-            <p>Default: On</p>
+            <p>الإعداد الافتراضي: تشغيل</p>
         </note>
     </item>
     <item>
         <title>استخدم "مانع الإعلان لليوتيوب"</title>
-        <p>If enabled, Parabolic will apply the SponsorBlock extension to YouTube downloads.</p>
+        <p>إذا تم التمكين، سيطبق بارابوليك إضافة SponsorBlock على تنزيلات يوتيوب.</p>
         <note>
-            <p>SponsorBlock only works on YouTube videos. However, leaving this setting on will not affect downloads from other sites (i.e. not cause them to fail).</p>
+            <p>يعمل SponsorBlock فقط على مقاطع فيديو يوتيوب. ومع ذلك، ترك هذا الإعداد مفعلاً لن يؤثر على التنزيلات من المواقع الأخرى (أي لن يتسبب في فشلها).</p>
         </note>
         <note style="advanced">
-            <p>Default: Off</p>
+            <p>الإعداد الافتراضي: إيقاف</p>
         </note>
     </item>
     <item>
         <title>حدُّ السرعة</title>
-        <p>A limit, in Ki/s, that is applied to downloads only if they have the advanced option <code>Speed Limit</code> enabled. Must be an integer value between 512 and 10240.</p>
+        <p>حد سرعة التحميل بالكيلو بايت/ثانية، يُطبق فقط إذا تم تفعيل الخيار المتقدم <code>حد السرعة</code>. يجب أن تكون القيمة عددًا صحيحًا بين 512 و10240.</p>
 		<note style="advanced">
-			<p>Default: 1024</p>
+			<p>الإعداد الافتراضي: 1024</p>
 		</note>
     </item>
     <item>
         <title>رابط الوكيل</title>
-        <p>The url of the proxy server to use.</p>
+        <p>عنوان URL الخاص بخادم الوكيل للاستخدام.</p>
         <note style="advanced">
-			<p>Default: No URL</p>
+			<p>الإعداد الافتراضي: لا يوجد عنوان URL</p>
 		</note>
     </item>
     <item>
         <title>معرّفات الإرتباط من المتصفح</title>
-        <p>A browser in which to read cookies from and pass to yt-dlp's download engine.</p>
-        <p>This may be useful when downloading media that requires a login, for example: private YouTube videos.</p>
-        <p>This option is on available on non sandboxed platforms.</p>
+        <p>متصفح يتم من خلاله قراءة ملفات تعريف الارتباط وتمريرها إلى محرك التنزيل الخاص بـ yt-dlp.</p>
+        <p>قد يكون هذا مفيدًا عند تحميل وسائط تتطلب تسجيل دخول، مثل مقاطع فيديو يوتيوب الخاصة.</p>
+        <p>هذا الخيار متاح فقط على الأنظمة الأساسية غير المعزولة.</p>
 		<note style="advanced">
-			<p>Default: None</p>
+			<p>الإعداد الافتراضي: لا شيء</p>
 		</note>
     </item>
     <item>
         <title>مِلَفّ تعريف الارتباط</title>
-        <p>A .txt file of cookies to pass to yt-dlp when download engine.</p>
-        <p>This may be useful when downloading media that requires a login, for example: private YouTube videos.</p>
-        <p>Use one of the following extensions for getting a cookies file from your browser:</p>
-        <p>Chrome: <code>https://chrome.google.com/webstore/detail/get-cookiestxt-locally/cclelndahbckbenkjhflpdbgdldlbecc</code></p>
-        <p>Firefox: <code>https://addons.mozilla.org/en-US/firefox/addon/cookies-txt/</code></p>
+        <p>ملف .txt يحتوي على ملفات تعريف الارتباط لتمريرها إلى محرك التنزيل yt-dlp.</p>
+        <p>قد يكون هذا مفيدًا عند تحميل وسائط تتطلب تسجيل دخول، مثل مقاطع فيديو يوتيوب الخاصة.</p>
+        <p>استخدم أحد الإضافات التالية للحصول على ملف تعريف الارتباط من متصفحك:</p>
+        <p>كروم: <code>https://chrome.google.com/webstore/detail/get-cookiestxt-locally/cclelndahbckbenkjhflpdbgdldlbecc</code></p>
+        <p>فايرفوكس: <code>https://addons.mozilla.org/en-US/firefox/addon/cookies-txt/</code></p>
         <note>
-            <p>Use these extensions at your own risk.</p>
+            <p>استخدم هذه الإضافات على مسؤوليتك الخاصة.</p>
         </note>
 		<note style="advanced">
-			<p>Default: No File Selected</p>
+			<p>الإعداد الافتراضي: لم يتم تحديد ملف</p>
 		</note>
     </item>
 </terms>
