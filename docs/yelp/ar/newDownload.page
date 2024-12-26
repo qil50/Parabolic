@@ -2,7 +2,7 @@
 <page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" id="newDownload" its:version="2.0" xml:lang="ar">
 <info>
 	<link type="guide" xref="index"/>
-	<title type="link">New Download 🆕</title>
+	<title type="link">تنزيل جديد 🆕</title>
 	<credit type="author copyright">
 		<name>Nicholas Logozzo</name>
 		<years its:translate="no">2023-2024</years>
@@ -11,102 +11,27 @@
 		<name>Nicholas Logozzo</name>
 		<years its:translate="no">2023-2024</years>
 	</credit>
-	<license href="http://creativecommons.org/licenses/by/4.0/" its:translate="no"><p>Creative Commons Attribution 4.0 International License</p></license>
+	<license href="http://creativecommons.org/licenses/by/4.0/" its:translate="no"><p>رخصة المشاع الإبداعي الدولية 4.0</p></license>
 </info>
 
-<title>New Download</title>
-<p>This page explains all options for configuring a new download in <app>Parabolic</app>.</p>
+<title>تنزيل جديد</title>
+<p>توضح هالصفحة كل الخيارات اللي تقدر تعدلها بتنزيل جديد في تطبيق <app>بارابوليك</app>.</p>
 
 <terms>
     <item>
-      <title>رابط الملف المراد تحميله</title>
-      <p>The URL of the media to download. Must be a valid ("valid" meaning syntactically correct) http or https link.</p>
+      <title>رابط الملف اللي تبي تحمله</title>
+      <p>رابط الوسائط اللي تبي تنزلها. لازم يكون رابط http أو https صحيح نحويًا.</p>
       <note>
-            <p>If a valid URL is found inside the clipboard upon opening the Add Download dialog, the URL will be automatically pasted in the URL entry row.</p>
+            <p>إذا حصلت رابط صالح بالحافظة وقت فتح مربع الحوار لإضافة تنزيل، بينحط الرابط تلقائيًا بخانة الإدخال.</p>
       </note>
     </item>
     <item>
       <title>توثيق</title>
-      <p>If enabled, the user will be asked to provide a username and/or password to pass to yt-dlp when downloading.</p>
-        <p>If credentials are found in the keyring, the user can instead chose from a list of named credentials to use (or continue to manually enter a credential)</p>
+      <p>إذا شغلته، البرنامج بيطلب منك اسم مستخدم و/أو كلمة مرور علشان يمررها إلى yt-dlp وقت التنزيل.</p>
+        <p>إذا لقى البرنامج بيانات محفوظة بحلقة المفاتيح، تقدر تختار منها أو تدخل بيانات جديدة بنفسك.</p>
 		<note style="advanced">
-			<p>Not all websites support passing usernames and passwords to yt-dlp. For example, YouTube does NOT support this feature.</p>
-            <p>For these sites that don't support passing credentials, it is recommended to select a browser to use cookies from in Preferences instead.</p>
-		</note>
-    </item>
-    <item>
-		<title>نوع الملف</title>
-		<p>The file type of which to download the media as.</p>
-        <note>
-            <p>The previously used file type will be remembered and pre-selected for the next download.</p>
-        </note>
-        <note style="advanced">
-            <p>Selecting the <code>Video (Generic)</code> or <code>Audio (Generic)</code> file types will cause Parabolic to download the media in the original file type of the media without performing any conversions.</p>
-        </note>
-    </item>
-    <item>
-		<title>جودة الملف</title>
-		<p>If the file type is a video type, the listed qualities will be the resolutions of the media available.</p>
-        <p>If the file type is an audio type, the listed qualities will be the audio bitrates of the media available.</p>
-        <note>
-            <p>The previously used quality will be remembered and pre-selected for the next download.</p>
-        </note>
-    </item>
-    <item>
-		<title>لغة الصوت (إذا توفرت)</title>
-		<p>The language of which to use from the audio part of a media download.</p>
-        <p>If no additional languages are available, <code>Default</code> will be the only option.</p>
-        <note>
-            <p>The previously used state will be remembered and pre-selected for the next download.</p>
-        </note>
-    </item>
-    <item>
-		<title>Subtitles</title>
-		<p>The list of subtitles available by the media that can be selected for download by the user. Further subtitle settings can be configured in <link xref="downloads">preferences</link>.</p>
-        <note>
-            <p>The previously selected subtitles will be remembered and pre-selected for the next download.</p>
-        </note>
-    </item>
-    <item>
-        <title>تقسيم الفصول</title>
-        <p>If enabled, Parabolic will split a video download into multiple smaller files based on its chapters.</p>
-        <note>
-            <p>The previously used state will be remembered and pre-selected for the next download.</p>
-        </note>
-    </item>
-    <item>
-		<title>Limit Download Speed</title>
-		<p>If enabled, Parabolic will limit the download's speed with the speed configured in <link xref="downloader">Preferences</link>.</p>
-        <note>
-            <p>The previously used state will be remembered and pre-selected for the next download.</p>
-        </note>
-    </item>
-    <item>
-		<title>Export Description</title>
-		<p>If enabled, Parabolic will export the media's description to a <code>.description</code> file alongside the downloaded file.</p>
-        <note>
-            <p>The previously used state will be remembered and pre-selected for the next download.</p>
-        </note>
-    </item>
-    <item>
-		<title>Time Frame</title>
-		<p>The user can enter a start time frame and an end time frame to download a specific section of the media.</p>
-        <note style="advanced">
-			<p>Default: The whole media length</p>
-		</note>
-    </item>
-    <item>
-		<title>مجلد الحفظ</title>
-		<p>The folder at which to save the download to.</p>
-        <note>
-            <p>The previously used folder will be remembered and pre-selected for the next download.</p>
-        </note>
-    </item>
-    <item>
-		<title>إسم الملف</title>
-        <p>The file name to use when saving the download.</p>
-		<note style="advanced">
-			<p>Default: The title of the media</p>
+			<p>مو كل المواقع تدعم إدخال أسماء المستخدمين وكلمات المرور في yt-dlp. مثلًا، يوتيوب ما يدعم هالميزة.</p>
+            <p>للمواقع اللي ما تدعم هالخاصية، يُنصح تستخدم متصفح لاستيراد ملفات تعريف الارتباط من التفضيلات بدلًا من كذا.</p>
 		</note>
     </item>
 </terms>
