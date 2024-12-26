@@ -15,35 +15,35 @@
 </info>
 
 <title>aria2</title>
-<p>This page explains all options for configuring aria2 in Preferences in <app>Parabolic</app>.</p>
+<p>توضح هذه الصفحة جميع الخيارات لإعداد آريا٢ في التفضيلات داخل تطبيق <app>بارابوليك</app>.</p>
 
 <terms>
     <item>
-        <title>إستخدم آريا٢</title>
-        <p>If enabled, Parabolic will use aria2c to download media.</p>
-        <p>Although using aria2c can improve download speed, download progress will not be displayed in the UI.</p>
+        <title>استخدم aria2</title>
+        <p>إذا تم التمكين، سيستخدم بارابوليك آريا٢ لتحميل الوسائط.</p>
+        <p>على الرغم من أن استخدام آريا٢ قد يُحسِّن سرعة التحميل، إلا أن تقدم التحميل لن يظهر في واجهة المستخدم.</p>
         <note style="advanced">
-            <p>Default: Off</p>
+            <p>الإعداد الافتراضي: إيقاف</p>
         </note>
     </item>
     <item>
-        <title>Maximum Connections Per Server</title>
+        <title>الحد الأقصى للاتصالات لكل خادم</title>
         <p>
-            This option only applies when using aria2 is enabled. This option is the same as the <code>-x</code> flag passed to aria2c.
+            ينطبق هذا الخيار فقط عند تمكين استخدام آريا٢. هذا الخيار يعادل العلامة <code>-x</code> المُمرَّرة إلى آريا٢.
         </p>
-        <p>The maximum number of connection that can be used per server. Must be an integer value between 1 and 32.</p>
+        <p>الحد الأقصى لعدد الاتصالات التي يمكن استخدامها لكل خادم. يجب أن تكون قيمة صحيحة بين 1 و32.</p>
         <note style="advanced">
-            <p>Default: 16</p>
+            <p>الإعداد الافتراضي: 16</p>
         </note>
     </item>
     <item>
-        <title>Minimum Split Size</title>
+        <title>الحد الأدنى لحجم التقسيم</title>
         <p>
-            This option only applies when using aria2 is enabled. This option is the same as the <code>-k</code> flag passed to aria2c.
+            ينطبق هذا الخيار فقط عند تمكين استخدام آريا٢. هذا الخيار يعادل العلامة <code>-k</code> المُمرَّرة إلى آريا٢.
         </p>
-        <p>The minimum size, in MiB, of which to split a file. Must be an integer value between 1 and 1024.</p>
+        <p>الحد الأدنى للحجم، بالميجابايت، لتقسيم الملف. يجب أن تكون قيمة صحيحة بين 1 و1024.</p>
         <note style="advanced">
-            <p>Default: 20</p>
+            <p>الإعداد الافتراضي: 20</p>
         </note>
     </item>
 </terms>
