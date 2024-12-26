@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="index" its:version="2.0" xml:lang="ar">
 <info>
-	<title type="link">Parabolic Help</title>
-	<title type="text">Parabolic Help</title>
+	<title type="link">مساعدة بارابوليك</title>
+	<title type="text">مساعدة بارابوليك</title>
 	<credit type="author copyright">
 		<name>Nicholas Logozzo</name>
 		<years its:translate="no">2023-2024</years>
@@ -11,11 +11,11 @@
 		<name>Nicholas Logozzo</name>
 		<years its:translate="no">2023-2024</years>
 	</credit>
-	<license href="http://creativecommons.org/licenses/by/4.0/" its:translate="no"><p>Creative Commons Attribution 4.0 International License</p></license>
+	<license href="http://creativecommons.org/licenses/by/4.0/" its:translate="no"><p>رخصة المشاع الإبداعي الدولية 4.0</p></license>
 </info>
 
-<title><media its:translate="no" type="image" src="figures/parabolic.png"/> Parabolic Help</title>
-<p>This documentation will help you understand how to configure <app>Parabolic</app> to get the most of the application.</p>
-<p>To get support, use <link href="https://github.com/NickvisionApps/Parabolic/issues">issues</link> or <link href="https://github.com/NickvisionApps/Parabolic/discussions">discussions</link> on Github, or <link href="https://bit.ly/3GrfEid">join our Matrix channel</link>.</p>
+<title><media its:translate="no" type="image" src="figures/parabolic.png"/> مساعدة بارابوليك</title>
+<p>تساعدك هذه الوثائق على فهم كيفية إعداد <app>بارابوليك</app> للحصول على أفضل استخدام للتطبيق.</p>
+<p>للحصول على الدعم، استخدم <link href="https://github.com/NickvisionApps/Parabolic/issues">المشاكل</link> أو <link href="https://github.com/NickvisionApps/Parabolic/discussions">المناقشات</link> على Github، أو <link href="https://bit.ly/3GrfEid">انضم إلى قناتنا على Matrix</link>.</p>
 <p>مطوِّري هذا البرنامج ليسوا مسؤولين عن أي إساءة ناهكة لقوانين حقوق النشر المحلية أو قانون الألفية للملكية الرقمية (DMCA). يستخدم المستخدمون هذا التطبيق على مسؤوليتهم الخاصة.</p>
 </page>
